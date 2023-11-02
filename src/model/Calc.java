@@ -54,5 +54,53 @@ public class Calc {
         return resultado;
     }
 
+    public boolean somar(int resposta){
+        boolean acertou = false;
+        this.resultado = this.getValor01() + this.getValor02();
 
+        if(this.getResultado() == resposta){
+            System.out.println("Resposta correta !");
+            acertou = true;
+        } else {
+            System.out.println("Resposta errada :(");
+        }
+        System.out.println(this.valor01 +  " + " + this.valor02 + " = " + this.getResultado());
+        return acertou;
+    }
+
+    public boolean subtrair(int resposta){
+        boolean acertou = false;
+        this.resultado = this.getValor01() - this.getValor02();
+
+        if(this.getResultado() == resposta){
+            System.out.println("Resposta correta !");
+            acertou = true;
+        } else {
+            System.out.println("Resposta errada :(");
+        }
+        System.out.println(this.valor01 +  " - " + this.valor02 + " = " + this.getResultado());
+        return acertou;
+    }
+
+    public boolean multiplicar(int resposta){
+        boolean acertou = false;
+        this.resultado = this.getValor01() * this.getValor02();
+
+        if(this.getResultado() == resposta){
+            System.out.println("Resposta correta !");
+            acertou = true;
+        } else {
+            System.out.println("Resposta errada :(");
+        }
+        System.out.println(this.valor01 +  " X " + this.valor02 + " = " + this.getResultado());
+        return acertou;
+    }
+
+    @Override
+    public String toString() {
+        return  " Dificuldade: " + dificuldade +
+                "\n Operacao: " + operacao +
+                "\n Algarismo 1: " + valor01 +
+                "\n Algarismo 2: " + valor02;
+    }
 }
