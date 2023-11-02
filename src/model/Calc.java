@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Random;
+
 public class Calc {
 
     private int dificuldade;
@@ -7,6 +9,29 @@ public class Calc {
 
     public Calc(int dificuldade) {
         this.dificuldade = dificuldade;
+        Random random = new Random();
+
+        this.operacao = random.nextInt(3);
+
+        if (dificuldade == 1) {
+            this.valor01 = random.nextInt(9);
+            this.valor02 = random.nextInt(9);
+        } else if (dificuldade == 2) {
+            this.valor01 = random.nextInt(99);
+            this.valor02 = random.nextInt(99);
+        } else if (dificuldade == 3) {
+            this.valor01 = random.nextInt(999);
+            this.valor02 = random.nextInt(999);
+        } else if (dificuldade == 4) {
+            this.valor01 = random.nextInt(9999);
+            this.valor02 = random.nextInt(9999);
+        } else if (dificuldade == 5) {
+            this.valor01 = random.nextInt(99999);
+            this.valor02 = random.nextInt(99999);
+        } else {
+            this.valor01 = random.nextInt(666666);
+            this.valor02 = random.nextInt(666666);
+        }
     }
 
     public int getDificuldade() {
@@ -28,4 +53,6 @@ public class Calc {
     public int getResultado() {
         return resultado;
     }
+
+
 }

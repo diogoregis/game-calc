@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b7d85e5-999b-4070-872a-6fcb841810cd" name="Changes" comment="Criando estrutura e arquivos">
+    <list default="true" id="3b7d85e5-999b-4070-872a-6fcb841810cd" name="Changes" comment="criando atributos e get para a Calc">
       <change beforePath="$PROJECT_DIR$/src/model/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Calc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698947084381</updated>
-      <workItem from="1698947085995" duration="1082000" />
+      <workItem from="1698947085995" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="Criando estrutura e arquivos">
       <created>1698947199760</created>
@@ -60,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698947199760</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="criando atributos e get para a Calc">
+      <created>1698948486649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698948486649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando estrutura e arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando estrutura e arquivos" />
+    <MESSAGE value="criando atributos e get para a Calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando atributos e get para a Calc" />
   </component>
 </project>
